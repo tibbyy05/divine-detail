@@ -6,7 +6,7 @@ import BackToTopButton from '@/components/BackToTopButton';
 import CallNowButton from '@/components/CallNowButton';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://YOUR-NETLIFY-URL.netlify.app'),
+  metadataBase: new URL('https://divinedetail.netlify.app'),
   title: 'Divine Detail | Premium Mobile Auto Detailing | Palm Beach, FL',
   description:
     "Palm Beach's premier mobile auto detailing service. We bring professional detailing to your home or office. 7 days a week.",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Divine Detail | Premium Mobile Auto Detailing',
     description: "Palm Beach's premier mobile auto detailing service. We come to you.",
-    url: 'https://YOUR-NETLIFY-URL.netlify.app',
+    url: 'https://divinedetail.netlify.app',
     siteName: 'Divine Detail',
     images: [
       {
