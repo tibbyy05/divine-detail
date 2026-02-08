@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { FeatureCard } from '@/components';
+import FeatureCard from '@/components/FeatureCard';
 import { MapPin, Droplets, Award, Shield, Clock, Star } from 'lucide-react';
 
 export default function AboutPage() {
