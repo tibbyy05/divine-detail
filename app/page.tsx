@@ -18,10 +18,10 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen">
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[60vh] md:min-h-screen flex items-center justify-center overflow-hidden">
         <motion.div style={{ y: heroY }} className="absolute inset-0">
           <video
-            className="h-full w-full object-cover"
+            className="absolute inset-0 h-full w-full object-cover object-[center_30%] md:object-center"
             autoPlay
             muted
             loop
